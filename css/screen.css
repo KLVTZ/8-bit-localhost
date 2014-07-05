@@ -1,0 +1,95 @@
+/* line 2, ../sass/_style.scss */
+body {
+  background: #7fac71 url("../images/8bit11.jpg") repeat-x;
+  font-family: 'silkscreen_expandednormal';
+}
+
+/* line 5, ../sass/_style.scss */
+.mainHead {
+  text-align: center;
+  display: block;
+  position: fixed;
+  top: 52%;
+  left: 50%;
+  margin-top: -350px;
+  margin-left: -125px;
+  font-size: 20px;
+}
+/* line 16, ../sass/_style.scss */
+.mainHead img {
+  max-width: 100%;
+}
+
+/* line 53, ../sass/_style.scss */
+.folders {
+  font-size: 16px;
+  overflow: auto;
+  width: 200px;
+  height: 300px;
+  background: white;
+  margin: auto;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 2%;
+}
+/* line 64, ../sass/_style.scss */
+.folders ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 100px;
+  padding-bottom: 2%;
+}
+/* line 74, ../sass/_style.scss */
+.folders li {
+  margin-top: 10%;
+  padding-bottom: 5%;
+}
+/* line 79, ../sass/_style.scss */
+.folders a {
+  text-decoration: none;
+  color: black;
+}
+/* line 83, ../sass/_style.scss */
+.folders a:hover, .folders a:focus {
+  color: #0197fd;
+  outline: 0;
+}
+
+/* line 89, ../sass/_style.scss */
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
+  margin: auto;
+}
+
+/* line 23, ../sass/_style.scss */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* line 27, ../sass/_style.scss */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 2px;
+  border-radius: 5px;
+  background: black;
+  -webkit-box-shadow: inset 0 0 6px grey;
+}
+
+/* line 34, ../sass/_style.scss */
+::-webkit-scrollbar-thumb:window-inactive {
+  background: grey;
+}
+
+@font-face {
+  font-family: 'silkscreen_expandednormal';
+  src: url("../fonts/slkscre-webfont.eot");
+  src: url("../fonts/slkscre-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/slkscre-webfont.woff") format("woff"), url("../fonts/slkscre-webfont.ttf") format("truetype"), url("../slkscre-webfont.svg#silkscreen_expandednormal") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
