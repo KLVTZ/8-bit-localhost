@@ -18,3 +18,7 @@ Night
 -----
 ![Night](http://i.imgur.com/rsrcdZy.gif "Night")
 
+Coming soon
+-----------
+- Full CSS design --no images
+- Mobile first design
