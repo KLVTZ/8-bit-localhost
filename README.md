@@ -1,8 +1,7 @@
 8-bit localhost
 ==============
 
-because default index is so boring
--------------------------------
+>because default index is so boring
 
 Tired of looking at Hello, World? Want to spice up your life with 8-bit goodness?
 Look no further than this sexy option.
